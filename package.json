@@ -1,0 +1,18 @@
+{
+  "name": "@iconify-json/tailgrid",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-icons.js",
+    "release": "release-it"
+  },
+  "exports": {
+    "./icons.json": "./icons.json"
+  },
+  "dependencies": {
+    "@iconify/tools": "^5.0.0",
+    "@release-it/conventional-changelog": "^9.0.3",
+    "release-it": "^17.10.0"
+  }
+}
